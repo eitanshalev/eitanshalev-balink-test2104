@@ -1,0 +1,74 @@
+.NW{
+    transform: rotate(
+            315deg
+    );
+}
+.NE{
+    transform: rotate(
+            45deg
+    );
+}
+.NNW{
+    transform: rotate(
+            337.5deg
+    );
+}
+.WSW{
+    transform: rotate(
+            247.5deg
+    );
+}
+.SW{
+    transform: rotate(
+            225deg
+    );
+}
+.SSE{
+    transform: rotate(
+            157.5deg
+    );
+}
+.SE{
+    transform: rotate(
+            135deg
+    );
+}
+.S{
+    transform: rotate(
+            180deg
+    )
+}
+.W{
+    transform: rotate(
+            270deg
+    );
+}
+.WNW{
+    transform: rotate(
+            292.5deg
+    );
+}
+.ENE{
+    transform: rotate(
+            67.5deg
+    );
+}
+
+.column {
+    flex: 1 1 0px;
+
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+}
+
+#table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+
+    color: white;
+}
+

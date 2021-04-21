@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Readme Eitan Shalev - balink</title>
+
+
+    <style>
+        div {
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+<!-- Main content -->
+<h1>Frontend Exercice Balink (2 Days)</h1>
+<h2>Author</h2>
+<ul>
+    <li>Eitan Shalev</li>
+    <li>ID 315511741</li>
+    <li>eitansh@hac.ac.il</li>
+</ul>
+
+
+
+
+<h2>Execution</h2>
+<p>The submission is a WebStorm project that can be run directly from the IDE.</p>
+
+<h2>Assumptions</h2>
+<p>The site use bootstap CDN therefore assumes an internet connection is available.</p>
+
+responsive page
+
+
+
+<div>
+    Google chrome has a bug from 2010 regarding CORS, so I read on the site
+    https://bugs.chromium.org/p/chromium/issues/detail?id=67743
+
+    In addition, answer number 262 in stackoverflow: link:
+
+    https://stackoverflow.com/questions/10883211/why-does-my-http-localhost-cors-origin-not-work
+
+    states: Chrome does not support localhost for CORS requests (a bug opened in 2010, marked WontFix in 2014).
+    To get around this you can use a domain like lvh.me (which points at 127.0.0.1 just like localhost) or start chrome with the --disable-web-security flag (assuming you're just testing).
+    I tried to figure out why and failed, it can be run through a server and not locally. The only solution that works for me is to change the beginning of the link like this:
+    file:///C:/Users/Eitan%20Shalev/EitanShalev_balink/index.html  (run localy)
+    Here's how:
+    http://localhost:63343/EitanShalev_balink/index.html         (with server)
+
+</div>
+
+
+
+
+ <address>Submitted 9 November 2020 </address>
+</body>
+</html>
